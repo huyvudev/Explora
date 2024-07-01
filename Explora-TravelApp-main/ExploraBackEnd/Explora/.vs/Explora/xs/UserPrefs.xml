@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{46682422-5D3E-43F1-BE4C-23EC31B7DDCA}|http">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/PlaneController.cs">
+    <Files>
+      <File FileName="Controllers/PlaneController.cs" Line="49" Column="28" />
+      <File FileName="Controllers/PlaneTicketController.cs" />
+      <File FileName="dto/CreatePlaneTicketDto.cs" />
+      <File FileName="Entity/TPlaneTicket.cs" />
+      <File FileName="data/ExploraContext.cs" />
+      <File FileName="dto/CreateAdminDto.cs" />
+      <File FileName="Entity/TAdmin.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Explora" expanded="True">
+            <Node name="Explora" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="PlaneController.cs" selected="True" />
+              </Node>
+              <Node name="data" expanded="True" />
+              <Node name="dto" expanded="True" />
+              <Node name="Entity" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Explora PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

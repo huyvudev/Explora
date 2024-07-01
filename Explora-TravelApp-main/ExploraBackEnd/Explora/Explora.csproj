@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.17" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.18">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.18">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.18" />
+    <PackageReference Include="MimeKit" Version="4.5.0" />
+    <PackageReference Include="MailKit" Version="4.5.0" />
+    <PackageReference Include="CloudinaryDotNet" Version="1.26.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="dto\" />
+    <None Remove="Entity\" />
+    <None Remove="data\" />
+    <None Remove="Service\" />
+    <None Remove="dto\CreateDto\" />
+    <None Remove="dto\GetDto\" />
+    <None Remove="dto\UpdateDto\" />
+    <None Remove="dto\FindDto\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dto\" />
+    <Folder Include="Entity\" />
+    <Folder Include="data\" />
+    <Folder Include="Service\" />
+    <Folder Include="dto\CreateDto\" />
+    <Folder Include="dto\GetDto\" />
+    <Folder Include="dto\UpdateDto\" />
+    <Folder Include="dto\FindDto\" />
+  </ItemGroup>
+</Project>
